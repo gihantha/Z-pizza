@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title> Order Now!</title>
+  <link rel="icon" href="img/Food-Wallpapers-HD-For-Desktop.jpg"/>
+</head>
+
+<body>
+
+<h1>Order Now!</h1>
+
+<form method="POST" action="form.aspx">
+
+<p>
+  <label>Customer Name: <input type="text" id="customerName" value="What is your Name?" maxlength="15">
+</p>
+
+<fieldset>
+
+  <legend>Pizza Size</legend>
+  <p><label><input type="radio" name="size" value="small"> Small (10 inch)</label></p>
+  <p><label><input type="radio" name="size" value="medium" checked> Medium (12 inch)</label></p>
+  <p><label><input type="radio" name="size" value="large"> Large (14 inch)</label></p>
+  
+
+</fieldset>
+
+<fieldset>
+
+  <legend>Pizza Type</legend>
+  <p><label><input type="radio" name="type" value="cheese"> Cheese </label></p>
+  <p><label><input type="radio" name="type" value="polos" checked> Polos </label></p>
+  <p><label><input type="radio" name="type" value="pepperoni"> Pepperoni </label></p>
+  <p><label><input type="radio" name="type" value="onion"> Onion </label></p>
+  <p><label><input type="radio" name="type" value="mushroom" > Mushroom </label></p>
+  <p><label><input type="radio" name="type" value="deepdish"> Deep Dish </label></p>
+</fieldset>
+<fieldset>
+  <legend>Pizza Topping</legend>
+  <p><label> <input type="checkbox" name="topping" value"bacon"></label>Bacon</p>
+  <p><label> <input type="checkbox" name="topping" value"cheese"></label>Extra Cheese</p>
+  <p><label> <input type="checkbox" name="topping" value"onion" checked></label>Onion</p>
+  <p><label> <input type="checkbox" name="topping" value"mushroom">Mushroom </label></p>
+  
+</fieldset>
+
+<p>Crust
+<select name="crust" multiple>
+  <option value="c1">Normal</option>
+  <option value="c2" selected>Ambul Thiyal</option>
+  <option value"c3">Chicago Deep Dish</option>
+</select>
+</p>
+
+<p><label>Delivery Instruction:
+  <textarea name="comments"cols="50" rows"5" maxlength="100">How do we get to your house?
+  </textarea>
+  </label>
+</p>
+  
+<p><input type="submit" value="Order Now!"></p>
+<p><input type="reset" value="Reset Value"></p>
+
+</form> 
+
+<p><a href="zpizza.html">Return to Home</a></p>
+
+<small> copy write © gihantha_kavien</small> 
+
+</body>
+
+</html>

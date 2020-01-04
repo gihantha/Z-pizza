@@ -1,0 +1,32 @@
+﻿hgroup{
+
+	margin-left:10%;
+	margin-right:10%;
+	width:70%;
+	
+	border-style:solid;
+}
+
+
+p{
+
+	margin-left:10%;
+	margin-right:10%;
+	
+}
+
+body, html {
+  height: 100%;
+}
+
+.back-img{
+
+	background: url(img/Food-Wallpapers-HD-For-Desktop.jpg) no-repeat center center fixed;
+	display:table;
+	position:relative;
+	width:100%;
+	background:cover;
+	height:600px;
+	filter: alpha(opacity=50);
+	opacity:0.65;
+}
